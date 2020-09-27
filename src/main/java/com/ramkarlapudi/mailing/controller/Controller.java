@@ -16,10 +16,10 @@ public class Controller implements CommandLineRunner  {
 	private MailUtil mailUtils;
 	@Override
 	public void run(String... args) throws Exception {
-		mailUtils.setCc(new String[] {"ramkarlapudi@hotmail.com"});
+		mailUtils.setCc(new String[] {"ram@hotmail.com"});
 		mailUtils.setSubject("Test Mail from JavaMailSender SpringBoot");
 		mailUtils.setText("Hello There");
-		mailUtils.setTo("ramkarlapudi1995@gmail.com");
+		mailUtils.setTo("ram@gmail.com");
 		
 	//Boolean flag =	mailingServiceImpl.sendMail();
 	
